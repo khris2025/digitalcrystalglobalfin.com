@@ -29,11 +29,11 @@
                             </tr>
                             <tr>
                                 <td>Name</td>
-                                <td>test user 10</td>
+                                <td>{{ Auth::user()->fullname }}</td>
                             </tr>
                             <tr>
                                 <td>Email</td>
-                                <td>meltudufyi@necub.com</td>
+                                <td>{{ Auth::user()->email }}</td>
                             </tr>
 
 
@@ -43,7 +43,7 @@
                             <!--</tr>-->
                             <tr>
                                 <td>Phone</td>
-                                <td>+1234234234234</td>
+                                <td>{{ Auth::user()->phone_number }}</td>
                             </tr>
                             <!--<tr>-->
                             <!--	<td>Branch</td>-->
