@@ -13,16 +13,17 @@
     </div>
 
     @if (Auth::user()->kyc_verify == "no")
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="alert alert-danger">
-                    <i class="fa fa-bell"></i>  Your account is not verified. Please
-                        submit all necessary documents. <strong><a
-                            href="{{ route('kyc_upload_page') }}">Submit
-                            Documents </a></strong>
-                </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="alert alert-danger py-1 px-2 mb-1" style="font-size: 12px; line-height: 1.3;">
+                <i class="fa fa-bell mr-1"></i>
+                Your account is not verified.
+                <a href="{{ route('kyc_upload_page') }}" class="font-weight-bold text-danger">
+                    Submit Documents
+                </a>
             </div>
         </div>
+    </div>
     @endif
 
     @if (Auth::user()->account_status == "RESTRICTED")
