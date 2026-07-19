@@ -225,6 +225,11 @@ Route::middleware(['auth'])->group(function () {
 
         Route::get('/modify_investments/{id}', [admin_pagecontroller::class, 'modify_investments'])->name('modify_investments');
     });
+    
+
+
+
+    
 
 
 
