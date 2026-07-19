@@ -15,7 +15,7 @@
     @if (Auth::user()->kyc_verify == "no")
     <div class="row">
         <div class="col-lg-12">
-            <div class="alert alert-danger py-1 px-2 mb-1" style="font-size: 12px; line-height: 1.3;">
+            <div class="alert alert-danger py-1 px-2 mb-3" style="font-size: 12px; line-height: 1.3;">
                 <i class="fa fa-bell mr-1"></i>
                 Your account is not verified.
                 <a href="{{ route('kyc_upload_page') }}" class="font-weight-bold text-danger">
@@ -29,7 +29,7 @@
     @if (Auth::user()->account_status == "RESTRICTED")
         <div class="row">
             <div class="col-lg-12">
-                <div class="alert alert-danger">
+                <div class="alert alert-danger py-1 px-2 mb-1" style="font-size: 12px; line-height: 1.3;">
                     <i class="fa fa-bell"></i>  Your account is currently restricted. Please
                         contact support for rectification.
                 </div>
@@ -37,7 +37,7 @@
         </div>
     @endif
 
-    <div class="row align-items-center mb-4">
+    <div class="row align-items-center mb-4 mt-3">
         <div class="col-12 d-flex align-items-center">
             <img src="https://account.starbasefinancebanking.com/public/uploads/profile/default.png"
                 alt="user-image" height="50" class="rounded-circle shadow-sm mr-2">
