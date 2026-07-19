@@ -21,20 +21,20 @@
                 </div>
                 <div class="card-body">
 
-                    <form action="https://account.starbasefinancebanking.com/profile/update" autocomplete="off" class="form-horizontal form-groups-bordered validate" enctype="multipart/form-data" method="post">
+                    <form action="#" autocomplete="off" class="form-horizontal form-groups-bordered validate" enctype="multipart/form-data" method="post">
                         <input type="hidden" name="_token" value="uSgD0Do8evZT0rOekXElZnzEIwhxva556tg1GINd">
                         <div class="row">
                             <div class="col-12">
                                 <div class="form-group">
                                     <label class="control-label">Name</label>
-                                    <input type="text" class="form-control" name="name" value="test user 10" required>
+                                    <input type="text" class="form-control" name="name" value="{{ Auth::user()->fullname }}" required>
                                 </div>
                             </div>
 
                             <div class="col-12">
                                 <div class="form-group">
                                     <label class="control-label">Email</label>
-                                    <input type="text" class="form-control" name="email" value="meltudufyi@necub.com" required>
+                                    <input type="text" class="form-control" name="email" value="{{ Auth::user()->email }}" required>
                                     <i><small><i class="icofont-info-circle"></i> If you change email address then you need to verify email address again !</small></i>
                                 </div>
                             </div>
