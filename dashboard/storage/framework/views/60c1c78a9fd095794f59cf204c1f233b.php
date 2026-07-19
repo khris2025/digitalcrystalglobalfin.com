@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Quantum-Digital Core Fin. </title>
+    <title>Digital Crystal Global Fin. </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="csrf-token" content="jgXIQgTD1AoYdBoxjPxQpYIwAIYHG0mp9dfnHFhy">
@@ -105,7 +105,7 @@
                     </div>
                 </button>
                 <a class="navbar-brand text-md-center"
-                    href="<?php echo e(route('dashboard')); ?>">Quantum-Digital Core Fin. </a>
+                    href="<?php echo e(route('dashboard')); ?>">Digital Crystal Global Fin. </a>
             </div>
 
             <div class="d-flex flex-row align-items-center">

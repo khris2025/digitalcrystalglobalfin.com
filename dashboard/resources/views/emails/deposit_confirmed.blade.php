@@ -36,7 +36,7 @@
             <p>We are pleased to inform you that a deposit of ${{ number_format($deposit_amount) }} has been made to your account.</p>
             <p>Your updated account balance is now ${{ number_format($user->walletbalance) }}.</p>
             <p>Thank you for choosing our services!</p>
-            <p>Sincerely,<br> Quantum-Digital Core Fin. .</p>
+            <p>Sincerely,<br> Digital Crystal Global Fin. </p>
         </div>
     </div>
 </body>

@@ -45,7 +45,7 @@
             <p><a class="button" href="<?php echo e(route('confirm_password_token', ['token' => $token])); ?>">Reset Password</a></p>
             <p>If you did not request a password reset, no further action is required.</p>
             <p>Thank you for choosing our services!</p>
-            <p>Sincerely,<br> Quantum-Digital Core Fin. .</p>
+            <p>Sincerely,<br> Digital Crystal Global Fin. </p>
         </div>
     </div>
 </body>
