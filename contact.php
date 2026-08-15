@@ -88,13 +88,13 @@ include('header.php');
                     support@digitalcrystalglobalfin.com
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 col-md-6">
+            <!-- <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="contact-block mb-4 mb-lg-0">
                     <i class="icofont-location-pin"></i>
                     <h5>Location</h5>
                     2800 post Oak Blvd. 31st Floor Houston, TX 77056 United States of America
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
