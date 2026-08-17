@@ -112,14 +112,14 @@
                                                 <div class="col-md-6">
                                                    <div class="mb-3">
                                                       <label class="form-label text-success" for="formrow-email-input">Account Number checking</label>
-                                                      <input type="text" class="form-control" id="formrow-email-input" name="" value="{{ $user->account_number_checking }}" disabled>
+                                                      <input type="text" class="form-control" id="formrow-email-input" name="acc_checking" value="{{ $user->account_number_checking }}" >
                                                    </div>
                                                 </div>
 
                                                 <div class="col-md-6">
                                                    <div class="mb-3">
                                                       <label class="form-label text-success" for="formrow-email-input">Account Number savings</label>
-                                                      <input type="text" class="form-control" id="formrow-email-input" name="" value="{{ $user->account_number_savings }}" disabled>
+                                                      <input type="text" class="form-control" id="formrow-email-input" name="acc_savings" value="{{ $user->account_number_savings }}" >
                                                    </div>
                                                 </div>
                                              </div>
