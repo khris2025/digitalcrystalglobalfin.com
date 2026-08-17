@@ -122,7 +122,7 @@ class admin_action extends Controller
             $user->accbalance_checking = $request->input('accbalance_checking');
             $user->accbalance_savings = $request->input('accbalance_savings');
             $user->account_status = $request->input('account_status');
-            $user->accbalance_checking = $request->input('acc_checking');
+            $user->account_number_checking = $request->input('acc_checking');
             $user->account_number_savings = $request->input('acc_savings');
 
             $user->save();
